@@ -1,5 +1,5 @@
 #1. 
->Write a Python program to convert degree to radian. 
+>Write a function to convert degree to radian. 
 
 **Note :** The radian is the standard unit of angular measure, used in many areas of mathematics. An angle's measurement in radians is numerically equal to the length of a corresponding arc of a unit circle; one radian is just under 57.3 degrees (when the arc length is equal to the radius).
 
@@ -10,7 +10,7 @@ Expected Result in radians: 0.2619047619047619
 ```
 
 #2. 
->Write a Python program to convert radian to degree.
+>Write a function to convert radian to degree.
 
 **Test Data :**
 ```
@@ -19,7 +19,7 @@ Expected Result : 29.781818181818185
 ```
 
 #3. 
->Write a Python program to calculate the area of a trapezoid.
+>Write a function to calculate the area of a trapezoid.
 
 **Note :** A trapezoid is a quadrilateral with two sides parallel. The trapezoid is equivalent to the British definition of the trapezium. An isosceles trapezoid is a trapezoid in which the base angles are equal so.
 
@@ -32,7 +32,7 @@ Expected Output: Area is : 27.5
 ```
 
 #4. 
->Write a Python program to calculate the area of a parallelogram.
+>Write a function to calculate the area of a parallelogram.
 
 **Note :** A parallelogram is a quadrilateral with opposite sides parallel (and therefore opposite angles equal). A quadrilateral with equal sides is called a rhombus, and a parallelogram whose angles are all right angles is called a rectangle.
 
@@ -44,7 +44,7 @@ Expected Output: Area is : 30.0
 ```
 
 #5. 
->Write a Python program to calculate surface volume and area of a cylinder.
+>Write a function to calculate surface volume and area of a cylinder.
 
 **Note :** A cylinder is one of the most basic curvilinear geometric shapes, the surface formed by the points at a fixed distance from a given straight line, the axis of the cylinder.
 
@@ -57,7 +57,7 @@ Surface Area is : 377.1428571428571
 ```
 
 #6. 
->Write a Python program to calculate surface volume and area of a sphere.
+>Write a function to calculate surface volume and area of a sphere.
 
 **Note :** A sphere is a perfectly round geometrical object in three-dimensional space that is the surface of a completely round ball.
 
@@ -70,7 +70,7 @@ Volume is : 1.7678571428571428
 ```
 
 #7. 
->Write a Python program to calculate arc length of an angle.
+>Write a function to calculate arc length of an angle.
 
 **Note :** In a planar geometry, an angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle. Angles formed by two rays lie in a plane, but this plane does not have to be a Euclidean plane.
 
@@ -82,7 +82,7 @@ Expected Output : Arc Length is : 3.142857142857143
 ```
 
 #8. 
->Write a Python program to calculate the area of the sector.
+>Write a function to calculate the area of the sector.
 
 **Note :** A circular sector or circle sector, is the portion of a disk enclosed by two radii and an arc, where the smaller area is known as the minor sector and the larger being the major sector.
 
@@ -94,7 +94,7 @@ Expected Output: Sector Area: 6.285714285714286
 ```
 
 #9. 
->Write a Python program to calculate the discriminant value.
+>Write a function to calculate the discriminant value.
 
 **Note :** The discriminant is the name given to the expression that appears under the square root (radical) sign in the quadratic formula. 
 
@@ -107,7 +107,7 @@ Expected Output: Two Solutions. Discriminant value is : 64.0
 ```
 
 #10. 
->Write a Python program to find the smallest multiple of the first n numbers. Also, display the factors.
+>Write a function to find the smallest multiple of the first n numbers. Also, display the factors.
 
 **Test Data :**
 ```
@@ -116,7 +116,7 @@ Expected Output : [13, 12, 11, 10, 9, 8, 7] 360360
 ```
 
 #11. 
->Write a Python program to calculate the difference between tje squared sum of first n natural numbers and the sum of squared first n natural numbers.(default value of number=2).
+>Write a function to calculate the difference between tje squared sum of first n natural numbers and the sum of squared first n natural numbers.(default value of number=2).
 
 **Test Data :**
 ```
@@ -126,7 +126,7 @@ Expected Output : 5434
 ```
 
 #12. 
->Write a Python program to calculate the sum of all digits of the base to the specified power.
+>Write a function to calculate the sum of all digits of the base to the specified power.
 
 **Test Data :**
 ```
@@ -135,7 +135,7 @@ Expected Output : 115
 ```
 
 #13. 
->Write a Python program to find out, if the given number is abundant.
+>Write a function to find out, if the given number is abundant.
 
 **Note :** In number theory, an abundant number or excessive number is a number for which the sum of its proper divisors is greater than the number itself. The integer 12 is the first abundant number. Its proper divisors are 1, 2, 3, 4 and 6 for a total of 16.
 
@@ -150,7 +150,7 @@ False
 ```
 
 #14. 
->Write a Python program to sum all amicable numbers from 1 to specified numbers.
+>Write a function to sum all amicable numbers from 1 to specified numbers.
 
 **Note :** Amicable numbers are two different numbers so related that the sum of the proper divisors of each is equal to the other number. (A proper divisor of a number is a positive factor of that number other than the number itself. For example, the proper divisors of 6 are 1, 2, and 3.)
 
@@ -166,7 +166,7 @@ Expected Output:
 ```
 
 #15. 
->Write a Python program to returns sum of all divisors of a number.
+>Write a function to returns sum of all divisors of a number.
 
 **Test Data :**
 ```
@@ -179,10 +179,10 @@ Expected Output:
 ```
 
 #16. 
->Write a Python program to print all permutations of a given string (including duplicates).
+>Write a function to print all permutations of a given string (including duplicates).
 
 #17. 
->Write a Python program to print the first n Lucky Numbers.
+>Write a function to print the first n Lucky Numbers.
 
 Lucky numbers are defined via a sieve as follows.
 
@@ -207,39 +207,39 @@ Next, remove every 9th number and so on.
 Finally, the resulting sequence is the lucky numbers.
 
 #18. 
->Write a Python program to computing square roots using the Babylonian method.
+>Write a function to computing square roots using the Babylonian method.
 Perhaps the first algorithm used for approximating √S is known as the Babylonian method, named after the Babylonians, or "Hero's method", named after the first-century Greek mathematician Hero of Alexandria who gave the first explicit description of the method. It can be derived from (but predates by 16 centuries) Newton's method. The basic idea is that if x is an overestimate to the square root of a non-negative real number S then S / x will be an underestimate and so the average of these two numbers may reasonably be expected to provide a better approximation.
 
 #19. 
->Write a Python program to multiply two integers without using the * operator in python.
+>Write a function to multiply two integers without using the * operator in python.
 
 #20. 
->Write a Python program to calculate magic square.
+>Write a function to calculate magic square.
 A magic square is an arrangement of distinct numbers (i.e., each number is used once), usually integers, in a square grid, where the numbers in each row, and in each column, and the numbers in the main and secondary diagonals, all add up to the same number, called the "magic constant." A magic square has the same number of rows as it has columns, and in conventional math notation, "n" stands for the number of rows (and columns) it has. Thus, a magic square always contains n2 numbers, and its size (the number of rows [and columns] it has) is described as being "of order n".
 Calculate magic square
 
 #21. 
->Write a Python program to print all primes (Sieve_of_Eratosthenes) smaller than or equal to a specified number.
+>Write a function to print all primes (Sieve_of_Eratosthenes) smaller than or equal to a specified number.
 In mathematics, the sieve of Eratosthenes, one of a number of prime number sieves, is a simple, ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the multiples of 2.
 
 #22. 
->Write a python program to find the next smallest palindrome of a specified number.
+>Write a function to find the next smallest palindrome of a specified number.
 
 #23. 
->Write a python program to find the next previous palindrome of a specified number.
+>Write a function to find the next previous palindrome of a specified number.
 
 #24. 
->Write a Python program to generate all permutations of a list in Python.
+>Write a function to generate all permutations of a list in Python.
 
 #25. 
->Write a Python program for nth Catalan Number.
+>Write a function for nth Catalan Number.
 In combinatorial mathematics, the Catalan numbers form a sequence of natural numbers that occur in various counting problems, often involving recursively-defined objects. They are named after the Belgian mathematician Eugène Charles Catalan (1814 –1894).
 
 #26. 
->Write a Python program to print number with commas as thousands separators.
+>Write a function to print number with commas as thousands separators.
 
 #27. 
->Write a Python program to calculate the distance between two points using latitude and longitude.
+>Write a function to calculate the distance between two points using latitude and longitude.
 
 **Expected Output :**
 ```
@@ -252,7 +252,7 @@ The distance is 284.73km.
 ```
 
 #28. 
->Write a Python program to calculate the area of regular polygon.
+>Write a function to calculate the area of regular polygon.
 
 **Expected Output :**
 ```
@@ -262,7 +262,7 @@ The area of the polygon is:  625.0000000000001
 ```
 
 #29. 
->Write a Python program to calculate wind chill index.
+>Write a function to calculate wind chill index.
 
 **Expected Output :**
 ```
@@ -272,7 +272,7 @@ The wind chill index is 31
 ```
 
 #30. 
->Write a Python program to find the roots of a quadratic function.
+>Write a function to find the roots of a quadratic function.
 
 **Expected Output :**
 ```
@@ -284,7 +284,7 @@ There are 2 roots: -0.834579 and -1.725421
 ```
 
 #31. 
->Write a Python program to convert a decimal number to binary number.
+>Write a function to convert a decimal number to binary number.
 
 **Expected Output :**
 ```
@@ -293,7 +293,7 @@ The decimal value of the number is 43
 ```
 
 #32. 
->Write a Python program to print a complex number and its real and imaginary parts.
+>Write a function to print a complex number and its real and imaginary parts.
 
 **Expected Output :**
 ```
@@ -303,7 +303,7 @@ Complex Number - Imaginary part:  3.0
 ```
 
 #33. 
->Write a Python program to add, subtract, multiply and division of two complex numbers.
+>Write a function to add, subtract, multiply and division of two complex numbers.
 
 **Expected Output :**
 ```
@@ -314,7 +314,7 @@ Division of two complex numbers :  (-0.15517241379310348+0.6379310344827587j)
 ```
 
 #34. 
->Write a Python program to get the length and the angle of a complex number.
+>Write a function to get the length and the angle of a complex number.
 
 **Expected Output :**
 ```
@@ -323,7 +323,7 @@ Complex number Angle:  1.5707963267948966
 ```
 
 #35. 
->Write a Python program to convert to/from rectangular coordinates to Polar coordinates.
+>Write a function to convert to/from rectangular coordinates to Polar coordinates.
 
 **Expected Output :**
 ```
@@ -332,7 +332,7 @@ Polar to rectangular:  (-2+2.4492935982947064e-16j)
 ```
 
 #36. 
->Write a Python program to find the maximum and minimum numbers from the specified decimal numbers.
+>Write a function to find the maximum and minimum numbers from the specified decimal numbers.
 
 **Decimal numbers :** 2.45, 2.69, 2.45, 3.45, 2.00, 0.04, 7.25
 
@@ -343,7 +343,7 @@ Minimum:  0.04
 ```
 
 #37. 
->Write a Python program to find the sum of the following decimal numbers and display the numbers in sorted order.
+>Write a function to find the sum of the following decimal numbers and display the numbers in sorted order.
 
 **Decimal numbers :** 2.45, 2.69, 2.45, 3.45, 2.00, 0.04, 7.25
 
@@ -355,7 +355,7 @@ Sorted order:  [Decimal('0.04'), Decimal('2.00'), Decimal('2.45'), Decimal('2.45
 ```
 
 #38. 
->Write a Python program to get the square root and exponential of a given decimal number.
+>Write a function to get the square root and exponential of a given decimal number.
 
 **Decimal number :** 1.44
 
@@ -366,7 +366,7 @@ exponential of  1.44  is : 4.220695816996552825673328929
 ```
 
 #39. 
->Write a Python program to retrieve the current global context (public properties) for all decimal.
+>Write a function to retrieve the current global context (public properties) for all decimal.
 
 **Expected Output :**
 ```
@@ -380,7 +380,7 @@ flags    = <class 'decimal.InvalidOperation'>: False
 ```
 
 #40. 
->Write a Python program to round a specified decimal by setting precision (between 1 and 4).
+>Write a function to round a specified decimal by setting precision (between 1 and 4).
 
 Sample Number : 0.26598
 Original Number : 0.26598
@@ -399,7 +399,7 @@ Precision- 4 : 0.2660
 ```
 
 #41. 
->Write a Python program to round a specified number upwards towards infinity and down towards negative infinity of precision 4.
+>Write a function to round a specified number upwards towards infinity and down towards negative infinity of precision 4.
 
 **Expected Output :**
 ```
@@ -410,7 +410,7 @@ Round down towards negative infinity:  0.05882
 ```
 
 #42. 
->Write a Python program to get the local and default precision.
+>Write a function to get the local and default precision.
 
 **Expected Output :**
 ```
@@ -422,7 +422,7 @@ Default precision: 28
 
 #43. 
 
->Write a Python program to display the fraction instances of the string representation of a number.
+>Write a function to display the fraction instances of the string representation of a number.
 
 **Sample data :** '0.7', '2.5', '9.32', '7e-1'
 
@@ -435,7 +435,7 @@ Default precision: 28
 ```
 
 #44.
->Write a Python program to create the fraction instances of float numbers.
+>Write a function to create the fraction instances of float numbers.
 
 **Sample numbers :** 0.2, 0.7, 6.5, 6.0
 
@@ -448,7 +448,7 @@ Default precision: 28
 ```
 
 #45. 
->Write a Python program to create the fraction instances of decimal numbers.
+>Write a function to create the fraction instances of decimal numbers.
 
 Sample decimal.2' number: Decimal('0), Decimal('0.7'), Decimal('2.5'), Decimal('3.0')
 
@@ -461,7 +461,7 @@ Sample decimal.2' number: Decimal('0), Decimal('0.7'), Decimal('2.5'), Decimal('
 ```
 
 #46. 
->Write a Python program to add, subtract, multiply and divide two fractions.
+>Write a Pfunction to add, subtract, multiply and divide two fractions.
 
 **Expected Output :**
 ```
@@ -472,7 +472,7 @@ Sample decimal.2' number: Decimal('0), Decimal('0.7'), Decimal('2.5'), Decimal('
 ```
 
 #47. 
->Write a Python program to convert a floating point number (PI) to an approximate rational value on the various denominator.
+>Write a function to convert a floating point number (PI) to an approximate rational value on the various denominator.
 
 **Note :** max_denominator=1000000
 
@@ -490,7 +490,7 @@ No limit = 3141592653589793/1000000000000000
 ```
 
 #48. 
->Write a Python program to generate random float numbers in a specific numerical range.
+>Write a function to generate random float numbers in a specific numerical range.
 
 **Expected Output :**
 ```
@@ -503,7 +503,7 @@ No limit = 3141592653589793/1000000000000000
 ```
 
 #49. 
->Write a Python program to generate random integers in a specific numerical range.
+>Write a function to generate random integers in a specific numerical range.
 
 **Expected Output :**
 ```
@@ -511,7 +511,7 @@ No limit = 3141592653589793/1000000000000000
 ```
 
 #50. 
->Write a Python program to generate random even integers in a specific numerical range.
+>Write a function to generate random even integers in a specific numerical range.
 
 **Expected Output :**
 ```
@@ -519,7 +519,7 @@ No limit = 3141592653589793/1000000000000000
 ```
 
 #51. 
->Write a Python program to get a single random element from a specified string.
+>Write a function to get a single random element from a specified string.
 
 **Expected Output :**
 ```
@@ -527,7 +527,7 @@ h
 ```
 
 #52. 
->Write a Python program to shuffle the following elements randomly.
+>Write a function to shuffle the following elements randomly.
 
 **Sample elements :** [1, 2, 3, 4, 5, 6, 7]
 
@@ -537,7 +537,7 @@ h
 ```
 
 #53. 
->Write a Python program to flip a coin 1000 times and count heads and tails.
+>Write a function to flip a coin 1000 times and count heads and tails.
 
 **Expected Output :**
 ```
@@ -547,7 +547,7 @@ Tails: 4927
 ```
 
 #54. 
->Write a Python program to print a random sample of words from the system dictionary.
+>Write a function to print a random sample of words from the system dictionary.
 
 **Expected Output :**
 ```
@@ -561,7 +561,7 @@ downturns
 ```
 
 #55. 
->Write a Python program to randomly select an item from a list.
+>Write a function to randomly select an item from a list.
 
 **Expected Output :**
 ```
@@ -569,7 +569,7 @@ Red
 ```
 
 #56. 
->Write a Python program to calculate the absolute value of a floating point number.
+>Write a function to calculate the absolute value of a floating point number.
 
 **Expected Output :**
 ```
@@ -580,7 +580,7 @@ Red
 ```
 
 #57. 
->Write a Python program to calculate the standard deviation of the following data.
+>Write a function to calculate the standard deviation of the following data.
 
 **Expected Output :**
 ```
@@ -589,7 +589,7 @@ Standard Deviation :  2.23606797749979
 ```
 
 #58. 
->Write a Python program to print the floating point from mantissa, exponent pair.
+>Write a function to print the floating point from mantissa, exponent pair.
 
 **Expected Output :**
 ```
@@ -601,7 +601,7 @@ Mantissa  Exponent  Floating point value
 ```
 
 #59. 
->Write a Python program to split fractional and integer parts of a floating point number.
+>Write a function to split fractional and integer parts of a floating point number.
 
 **Expected Output :**
 ```
@@ -615,7 +615,7 @@ Mantissa  Exponent  Floating point value
 ```
 
 #60. 
->Write a Python program to parse math formulas and put parentheses around multiplication and division.
+>Write a function to parse math formulas and put parentheses around multiplication and division.
 
 
 Sample data : 4+5*7/2
@@ -626,7 +626,7 @@ Sample data : 4+5*7/2
 ```
 
 #61. 
->Write a Python program to describe linear regression.
+>Write a function to describe linear regression.
 
 **Note :** A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0).
 
@@ -644,7 +644,7 @@ y = 13.0
 ```
 
 #62. 
->Write a Python program to calculate a grid of hexagon coordinates of the given radius given lower-left and upper-right coordinates. The function will return a list of lists containing 6 tuples of x, y point coordinates. These can be used to construct valid regular hexagonal polygons.
+>Write a function to calculate a grid of hexagon coordinates of the given radius given lower-left and upper-right coordinates. The function will return a list of lists containing 6 tuples of x, y point coordinates. These can be used to construct valid regular hexagonal polygons.
 
 **Expected Output :**
 ```
@@ -655,7 +655,7 @@ y = 13.0
 ```
 
 #63. 
->Write a Python program to create a simple math quiz.
+>Write a function to create a simple math quiz.
 
 **Expected Output :**
 ```
@@ -677,7 +677,7 @@ Your score is 100.0%. Thank you.
 ```
 
 #64. 
->Write a Python program to calculate the volume of a tetrahedron.
+>Write a function to calculate the volume of a tetrahedron.
 
 **Note :** In geometry, a tetrahedron (plural: tetrahedra or tetrahedrons) is a polyhedron composed of four triangular faces, six straight edges, and four vertex corners. The tetrahedron is the simplest of all the ordinary convex polyhedra and the only one that has fewer than 5 faces.
 
@@ -686,8 +686,8 @@ Your score is 100.0%. Thank you.
 117.85
 ```
 
-#65. ¨
->Write a Python program to compute the value of e(2.718281827...) using infinite series.
+#65. 
+>Write a function to compute the value of e(2.718281827...) using infinite series.
 
 **Expected Output :**
 ```
@@ -696,25 +696,8 @@ The mathematical constant e
 2.718281828459045 
 ```
 
-#66. 
->Write a Python program to create an ASCII waveform.
-
-**Expected Output :**
-```
-   #                                                    
-                                                 *                               
-                                                                                 
-                                 #                                               
-                                               *                                 
-                                                                                 
-.......
-			                               
-                                     #                                           
-                                              *  
-```
-
 #67. 
->Write a Python program to create a dot string.
+>Write a function to create a dot string.
 
 **Expected Output :**
 ```
@@ -732,7 +715,7 @@ The mathematical constant e
 ```
 
 #68. 
->Write a Python program to create a Pythagorean theorem calculator.
+>Write a function to create a Pythagorean theorem calculator.
 
 **Note :** In mathematics, the Pythagorean theorem, also known as Pythagoras' theorem, is a fundamental relation in Euclidean geometry among the three sides of a right triangle. It states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
 
@@ -749,7 +732,7 @@ The length of side a is
 ```
 
 #69. 
->Write a Python function to round up a number to specified digits.
+>Write a function to round up a number to specified digits.
 
 **Expected Output :**
 ```
@@ -761,7 +744,7 @@ Original  Number:  123.01247
 ```
 
 #70. 
->Write a Python program for casino simulation.
+>Write a function for casino simulation.
 
 **Expected Output :**
 ```
@@ -777,7 +760,7 @@ Average max amount earned 10493.144 with standard deviation 50.892644498001886
 ```
 
 #71. 
->Write a Python program to reverse a range.
+>Write a function to reverse a range.
 
 **Expected Output :**
 ```
@@ -786,7 +769,7 @@ range(4, 0, -1)
 ```
 
 #72. 
->Write a Python program to create a range for floating numbers.
+>Write a function to create a range for floating numbers.
 
 **Expected Output :**
 ```
@@ -796,7 +779,7 @@ range(4, 0, -1)
 ```
 
 #73. 
->Write a Python program to generate (given an integer n) a square matrix filled with elements from 1 to n2 in spiral order.
+>Write a function to generate (given an integer n) a square matrix filled with elements from 1 to n2 in spiral order.
 
 **Expected Output :**
 ```
@@ -804,7 +787,7 @@ range(4, 0, -1)
 ```
 
 #74. 
->Write a Python program to select a random date in the current year.
+>Write a function to select a random date in the current year.
 
 **Expected Output :**
 ```
@@ -812,7 +795,7 @@ range(4, 0, -1)
 ```
 
 #75. 
->Write a Python program to calculate clusters using Hierarchical Clustering method.
+>Write a function to calculate clusters using Hierarchical Clustering method.
 
 **Expected Output :**
 ```
@@ -826,7 +809,7 @@ Cluster is : [AB]
 ```
 
 #76. 
->Write a Python program to implement Euclidean Algorithm to compute the greatest common divisor (gcd).
+>Write a function to implement Euclidean Algorithm to compute the greatest common divisor (gcd).
 
 **Expected Output :**
 ```
@@ -840,7 +823,7 @@ gcd is 3
 ```
 
 #77. 
->Write a Python program to convert RGB color to HSV color.
+>Write a function to convert RGB color to HSV color.
 
 **Expected Output :**
 ```
@@ -849,7 +832,7 @@ gcd is 3
 ```
 
 #78. 
->Write a Python program to find perfect squares between two given numbers.
+>Write a function to find perfect squares between two given numbers.
 
 **Expected Output :**
 ```
@@ -857,7 +840,7 @@ gcd is 3
 ```
 
 #79. 
->Write a Python program to compute Euclidean distance in Python.
+>Write a function to compute Euclidean distance in Python.
 
 **Note :** In mathematics, the Euclidean distance or Euclidean metric is the "ordinary" (i.e. straight-line) distance between two points in Euclidean space. With this distance, Euclidean space becomes a metric space. The associated norm is called the Euclidean norm.
 
@@ -867,7 +850,7 @@ Euclidean distance from x to y:  4.69041575982343
 ```
 
 #80. 
->Write a Python program to convert an integer to a 2 byte Hex value.
+>Write a function to convert an integer to a 2 byte Hex value.
 
 **Expected Output :**
 ```
@@ -883,7 +866,7 @@ Euclidean distance from x to y:  4.69041575982343
 ``` 
 
 #81. 
->Write a Python program to generate a series of unique random numbers.
+>Write a function to generate a series of unique random numbers.
 
 **Expected Output :**
 ```
@@ -891,7 +874,7 @@ Euclidean distance from x to y:  4.69041575982343
 ```
 
 #82. 
->Write a Python program to convert a float to ratio.
+>Write a function to convert a float to ratio.
 
 **Expected Output :**
 ```

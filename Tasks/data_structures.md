@@ -1,5 +1,5 @@
 #1. 
->Write a Python program to create an Enum object and display a member name and value.
+>Write a function to create an Enum object and display a member name and value.
 
 **Expected Output:**
 ```
@@ -15,7 +15,7 @@ Member value: 355
 ```
 
 #2. 
->Write a Python program to iterate over an enum class and display individual member and their value.
+>Write a function to iterate over an enum class and display individual member and their value.
 
 **Expected Output:**
 ```
@@ -28,7 +28,7 @@ Antarctica = 672
 ```
 
 #3. 
->Write a Python program to display all the member name of an enum class ordered by their values.
+>Write a function to display all the member name of an enum class ordered by their values.
 
 **Expected Output:**
 ```
@@ -42,7 +42,7 @@ Antarctica
 ```
 
 #4. 
->Write a Python program to get all values from an enum class.
+>Write a function to get all values from an enum class.
 
 **Expected Output:**
 ```
@@ -50,7 +50,7 @@ Antarctica
 ```
 
 #5. 
->Write a Python program to count the most common words in a dictionary.
+>Write a function to count the most common words in a dictionary.
 
 **Expected Output:**
 ```
@@ -58,7 +58,7 @@ Antarctica
 ```
 
 #6. 
->Write a Python program to find the class wise roll number from a tuple-of-tuples.
+>Write a function to find the class wise roll number from a tuple-of-tuples.
 
 **Expected Output:**
 ```
@@ -66,7 +66,7 @@ defaultdict(, {'VII': [1], 'V': [1, 2], 'VI': [1, 2, 3]})
 ```
 
 #7. 
->Write a Python program to count the number of students of individual class.
+>Write a function to count the number of students of individual class.
 
 **Sample data:**
 ```
@@ -85,7 +85,7 @@ Counter({'VI': 3, 'V': 2, 'VII': 1})
 ```
 
 #8.
->Write a Python program to get the unique enumeration values.
+>Write a function to get the unique enumeration values.
 
 **Expected Output:**
 ```
@@ -97,7 +97,7 @@ Angola = 244
 ```
 
 #9. 
->Write a Python program to create an instance of an OrderedDict using a given dictionary. Sort the dictionary during the creation and print the members of the dictionary in reverse order.
+>Write a function to create an instance of an OrderedDict using a given dictionary. Sort the dictionary during the creation and print the members of the dictionary in reverse order.
 
 **Expected Output:**
 ```
@@ -115,7 +115,7 @@ Angola 244
 ```
 
 #10. 
->Write a Python program to group a sequence of key-value pairs into a dictionary of lists.
+>Write a function to group a sequence of key-value pairs into a dictionary of lists.
 
 **Expected Output:**
 ```
@@ -123,7 +123,7 @@ Angola 244
 ```
 
 #11. 
->Write a Python program to compare two unordered lists (not sets).
+>Write a function to compare two unordered lists (not sets).
 
 **Expected Output:**
 ```
@@ -131,7 +131,7 @@ False
 ```
 
 #12. 
->Write a Python program to create an array contains six integers. Also print all the members of the array.
+>Write a function to create an array contains six integers. Also print all the members of the array.
 
 **Expected Output:**
 ```
@@ -143,7 +143,7 @@ False
 ```
 
 #13. 
->Write a Python program to get the array size of types unsigned integer and float.
+>Write a function to get the array size of types unsigned integer and float.
 
 **Expected Output:**
 ```
@@ -152,7 +152,7 @@ False
 ```
 
 #14. 
->Write a Python program to get an array buffer information.
+>Write a function to get an array buffer information.
 
 **Expected Output:**
 ```
@@ -161,7 +161,7 @@ Array buffer start address in memory and number of elements.
 ```
 
 #15. 
->Write a Python program to get the length of an array.
+>Write a function to get the length of an array.
 
 **Expected Output:**
 ```
@@ -170,7 +170,7 @@ Length of the array is:
 ```
 
 #16. 
->Write a Python program to convert an array to an ordinary list with the same items.
+>Write a function to convert an array to an ordinary list with the same items.
 
 **Expected Output:**
 ```
@@ -181,7 +181,7 @@ Array to list:
 ```
 
 #17. 
->Write a Python program to convert an array to an array of machine values and return the bytes representation.
+>Write a function to convert an array to an array of machine values and return the bytes representation.
 
 **Expected Output:**
 ```
@@ -191,7 +191,7 @@ Array of bytes: b'010000000200000003000000040000000500000006000000'
 ```
 
 #18. 
->Write a Python program to read a string and interpreting the string as an array of machine values.
+>Write a function to read a string and interpreting the string as an array of machine values.
 
 **Expected Output:**
 ```
@@ -201,7 +201,7 @@ array2: array('i', [7, 8, 9, 10])
 ```
 
 #19. 
->Write a Python program to push three items into the heap and print the items from the heap.
+>Write a function to push three items into the heap and print the items from the heap.
 
 **Expected Output:**
 ```
@@ -211,7 +211,7 @@ array2: array('i', [7, 8, 9, 10])
 ```
 
 #20. 
->Write a Python program to push three items into a heap and return the smallest item from the heap. Also Pop and return the smallest item from the heap.
+>Write a function to push three items into a heap and return the smallest item from the heap. Also Pop and return the smallest item from the heap.
 
 **Expected Output:**
 ```
@@ -229,7 +229,7 @@ Pop the smallest item in the heap:
 ```
 
 #21. 
->Write a Python program to push an item on the heap, then pop and return the smallest item from the heap.
+>Write a function to push an item on the heap, then pop and return the smallest item from the heap.
 
 **Expected Output:**
 ```
@@ -245,7 +245,7 @@ Using heappushpop push item on the heap and return the smallest item.
 ```
 
 #22. 
->Write a Python program to create a heapsort, pushing all values onto a heap and then popping off the smallest values one at a time.
+>Write a function to create a heapsort, pushing all values onto a heap and then popping off the smallest values one at a time.
 
 **Expected Output:**
 ```
@@ -253,7 +253,7 @@ Using heappushpop push item on the heap and return the smallest item.
 ```
 
 #23. 
->Write a Python program to get the two largest and three smallest items from a dataset.
+>Write a function to get the two largest and three smallest items from a dataset.
 
 **Expected Output:**
 ```
@@ -262,7 +262,7 @@ Using heappushpop push item on the heap and return the smallest item.
 ```
 
 #24. 
->Write a Python program to locate the left insertion point for a specified value in sorted order.
+>Write a function to locate the left insertion point for a specified value in sorted order.
 
 **Expected Output:**
 ```
@@ -270,7 +270,7 @@ Using heappushpop push item on the heap and return the smallest item.
 2
 ```
 #25. 
->Write a Python program to locate the right insertion point for a specified value in sorted order.
+>Write a function to locate the right insertion point for a specified value in sorted order.
 
 **Expected Output:**
 ```
@@ -279,7 +279,7 @@ Using heappushpop push item on the heap and return the smallest item.
 ```
 
 #26. 
->Write a Python program to insert items into a list in sorted order.
+>Write a function to insert items into a list in sorted order.
 
 **Expected Output:**
 ```
@@ -290,7 +290,7 @@ Sorted List:
 ```
 
 #27. 
->Write a Python program to create a queue and display all the members and size of the queue.
+>Write a function to create a queue and display all the members and size of the queue.
 
 **Expected Output:**
 ```
@@ -301,7 +301,7 @@ Size of the queue:
 ```
 
 #28. 
->Write a Python program to find whether a queue is empty or not.
+>Write a function to find whether a queue is empty or not.
 
 **Expected Output:**
 ```
@@ -310,7 +310,7 @@ False
 ```
 
 #29. 
->Write a Python program to create a FIFO queue.
+>Write a function to create a FIFO queue.
 
 **Expected Output:**
 ```
@@ -318,7 +318,7 @@ False
 ```
 
 #30. 
->Write a Python program to create a LIFO queue.
+>Write a function to create a LIFO queue.
 
 **Expected Output:**
 ```
