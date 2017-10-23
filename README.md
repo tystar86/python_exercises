@@ -1,2 +1,3 @@
-# python_exercises
-Python exercises
+# Python Exercises
+
+Python exercises for beginners
