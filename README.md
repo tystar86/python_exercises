@@ -11,21 +11,3 @@ Python exercises for beginners
 **http://codingbat.com/python**
 
 **https://www.reddit.com/r/dailyprogrammer/**
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
